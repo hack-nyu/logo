@@ -7,6 +7,12 @@ body {
   justify-content: center;
   align-items: center; }
 
-#Arc {
-  stroke-dasharray: 100;
-  stroke: red; }
+#arc {
+  stroke-dasharray: 3000;
+  stroke: white;
+  animation: dash 3s normal forwards linear;
+  stroke-dashoffset: 3000; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
