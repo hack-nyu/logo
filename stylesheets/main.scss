@@ -8,12 +8,14 @@ body {
   align-items: center;
 }
 
-#arc {
+#curves {
+  fill: #222;
   // fill-opacity: 1;
-  stroke-dasharray: 3000;
-  stroke: white;
-  animation: dash 3s normal forwards linear;
-  stroke-dashoffset: 3000;
+  stroke-dasharray: 100;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 12;
+  animation: dash 10s normal forwards linear;
+  stroke-dashoffset: 1000;
 }
 
 @keyframes dash {
